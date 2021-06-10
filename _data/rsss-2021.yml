@@ -16,25 +16,45 @@
               website: https://www.colorado.edu/lab/jayaram/
         - title: "VoxBots: 3 DOF Modular Robots for Evolution"
           abstract: Robotic imitation of biological evolution is difficult with current technology; technology which often lacks the adaptability of living equivalents. Time is another hurdle, significant biological evolution can take centuries. However, by removing hardware from the evolutionary process, previous work has shown that a simulation of a potential robot can be used to accelerate evolution into hours. Bringing these simulations into reality has shown to be difficult, but again, we can look to the living for inspiration. As biology relies on cells, so can robots, and by creating a palette of modules a larger morphology can be assembled which is greater than the sum of its parts. We are using modular robots with different functionalities, which can be seen as varying cells, to create larger, interesting morphologies which are created from designs generated through simulated evolution, designs discovered without human interaction.
-          bio: Travis' research in the MAC Lab focuses on how additive manufacturing can be used to further robotics. He received his M.S. and B.S degrees at the University of Utah.
+          bio: Brandon received a double major in biomedical engineering and microelectronics engineering from Rochester Institute of Technology. There, his interests centered around microfluidics and multi-physics processes. After a few internships out west in Oregon, Brandon decided to head out to Colorado for grad school as well as the mountains. Brandon’s research focus is on combining additive manufacturing with microfluidics as well as understanding and applications of thermal bubble-driven micro-pumps for microfluidics. In his free time, Brandon can likely be found swimming, hiking, exploring, and biking around in the nearby mountains (with Flagstaff being his current favorite for a quick evening ride).
           speakers:
-            - name: Travis Hainsworth
+            - name: Brandon Hayes
           advisors:
             - name: Robert MacCurdy
               website: https://www.matterassembly.org/
+    - date: June 17th
+      talks:
+        - title: Deployed Intelligence in Robotic Materials
+          abstract: Robotic materials are materials that tightly combine sensing, actuation, computation and communication. With the advent of advanced robotic material fabrication techniques that produce novel sensing and actuation, there also exists an opportunity to integrate computation and communication to create truly autonomous materials. For computation and communication, robotic materials use low-power edge devices. We integrate computing and communication into these devices, ultimately composing those materials into huge distributed computing platforms that can adapt, predict and learn, much like the human brain. With the slow-down of Moore’s Law in the past decades we assume that high-level high-power algorithms will need a simpler, more lightweight equivalence.
+          bio: Sarah is a fifth-year PhD student in the Computer Science Department at CU Boulder. She previously got her BS and MS in aerospace engineering at Penn State University. Her research interests are prediction and control applied to the embedded systems at the robotic materials’ edge IoT devices. Sarah is a recipient of the Berkeley Rising Stars Workshop recognition.
+          speakers:
+            - name: Sarah Aguasvivas-Manzano
+              website: https://sarahaguasvivas.github.io/
+          advisors:
+            - name: Nikolaus Correll
+              website: http://correll.cs.colorado.edu/
+        - title: Probabilistic Specification Learning for Planning with Safety Constraints
+          abstract: Autonomous robots are becoming inevitable parts of our society, operating in various applications from deep-sea exploration to human-shared assembly lines. As they advance to these domains, robots are expected to perform challenging tasks whose specifications are often difficult if not impossible to accurately define. To address this challenge, in this talk, I introduce an approach that focuses on learning a complex task from demonstrations as a formal specification. I formulate this problem as a grammatical inference problem, wherein the task is learned as a probabilistic automaton whose edge probabilities represent demonstrators' preferences. I also show that we can incorporate safety specifications during the learning process and prove that the resulting automaton always respects the safety property. I discuss the generality of the method and show that it can easily be integrated into any Evidence-Driven State Merging (EDSM)-based automaton learning algorithms. Moreover, I introduce a planning algorithm that produces the most desirable (user-preferred) plan by maximizing the probability of an accepting trace of the automaton. In the case studies, I show that our algorithm learns the true probability distribution accurately while maintaining safety on a variety of mobile robots and manipulators.
+          bio: Kandai Watanabe is a second-year Ph.D. student in the Computer Science Department at the University of Colorado Boulder. He got his Bachelor’s and Master’s Degree at Keio University, Japan, and also studied at the University of Illinois at Urbana Champaign during his Bachelor’s Degree. His research interest lies in the intersection of Formal Verification, Robotics, and Human-Robot-Interaction, where he is seeking to combine high-level task learning with low-level policy learning while ensuring safety for human-robot interaction. At ARIA (Assured Reliable Interactive Autonomous) Systems Group, he is currently investigating novel algorithms for learning task specifications from demonstrations. Kandai is a recipient of the Japan Student Services Organization (JASSO) Overseas Graduate Fellowship and Keio University Global Fellowship. 
+          speakers:
+            - name: Kandai Watanabe
+              website: https://watakandai.github.io/
+          advisors:
+            - name: Morteza Lahijanian
+              website: https://www.ariasystems.group/
     - date: June 24th
       talks:
-        - title:
-          abstract:
-          bio:
+        - title: Heterogeneous Decetralized Data Fusion for Multi-Agent Robotic Systems
+          abstract: In the context of multi-agent systems, there is a growing interest to allow for the coordinated and cooperative operation of heterogeneous systems in uncertain environments. For example, a team of air and ground vehicles can vary in their sensing, computing, and communication capabilities, and might have different sets of models and objectives. The question is how to share information in a scalable and modular way, despite this heterogeneity? In this talk I will show how we exploit the conditional independence structure inherent in different robotics problems to develop a family of methods that allow exact and approximate decentralized Bayesian fusion. These can be used to significantly reduce communication and computation costs, allowing scalability in multi-agent heterogeneous systems as will be demonstrated with a multi-target tracking simulation.
+          bio: Ofer Dagan is a 3rd year PhD student in the Cooperative Human-Robot Intelligence Lab (COHRINT), advised by Dr. Nisar Ahmed. He received the B.S. degree in aerospace engineering, in 2010, and the M.S. degree in mechanical engineering, in 2015, from the Technion - Israel Institute of Technology, Haifa, Israel. From 2010 to 2018 he was a research engineer in the aerospace industry. His research interests include theory and algorithms for decentralized Bayesian inference in heterogeneous autonomous systems.
           speakers:
             - name: Ofer Dagan
               website:
           advisors:
             - name: Nisar Ahmed
               website: https://cohrint.info/
-        - title:
-          abstract:
+        - title: Contact Anticipation and Avoidance for Robotic Manipulators using Onboard Sensors
+          abstract: As humans and robots begin to coexist in work and household environments, pure collision avoidance is insufficient, as human-robot contact is inevitable and, in some situations, desired. Robotic skin has the ability to enable manipulators to anticipate contact and enhance their approximation of the surrounding environment. This presentation will focus on the ability for robot arms to take slight deviations from their original trajectory through velocity reduction and motion restrictions with the use of onboard sensors. Additionally, this talk will explore future directions for modular sensor units and associated algorithms.
           bio:
           speakers:
             - name: Caleb Escobedo
@@ -44,7 +64,7 @@
               website: https://hiro-group.ronc.one/
     - date: July 8th
       talks:
-        - title:
+        - title: "Non-Prehensile Manipulation Modeling and Planning: Experiments in Poking Manipulation"
           abstract:
           bio:
           speakers:
@@ -53,7 +73,7 @@
           advisors:
             - name: Alessandro Roncone
               website: https://hiro-group.ronc.one/
-        - title:
+        - title: Embedded Sensing Mechanisms and Control for Soft Robotic Systems
           abstract:
           bio:
           speakers:
@@ -62,18 +82,9 @@
           advisors:
             - name: Mark Rentschler
               website: https://www.colorado.edu/lab/amtl/
-        - title:
-          abstract:
-          bio:
-          speakers:
-            - name: Sarah Aguasvivas-Manzano
-              website:
-          advisors:
-            - name: Nikolaus Correll
-              website: http://correll.cs.colorado.edu/
     - date: July 15th
       talks:
-        - title:
+        - title: Mediating Trust and Influence in Human-Robot Interaction via Explainable AI
           abstract:
           bio:
           speakers:
@@ -82,12 +93,12 @@
           advisors:
             - name: Brad Hayes
               website: http://www.cairo-lab.com/
-        - title:
-          abstract:
-          bio:
+        - title: Human-Robot Conversations
+          abstract: This work aims to improve human-robot conversational groups, in which a robot is situated in an F-formation with humans. With a naive look, each robot consists of input devices e.g., sensors, cameras, etc. logic and decision making blocks e.g., face detection algorithm, NLP, etc. and output devices e.g., actuators and speakers, etc. These components connect serially. Each component is prone to errors; therefore, each error feeds into the next component and decreases the overall efficiency of the system. For example, if the camera cannot see a person because of being obstructed by an object, then the human detection algorithm cannot detect that person and then the robot won't consider that person in the interaction. These types of errors decrease the efficiency of the system and also negatively impact human-robot interaction. In this work, we propose four systems that aim to help understand human-robot conversational groups better, reason about them, and find the mentioned errors and overcome them. First, we look at the difference between human-human conversational groups and human-robot conversation groups. Second, we propose an algorithm to detect conversational groups (F-formations). Third, we look at how to detect missing people in the conversational groups and validate human-detection algorithms. Last, we propose an algorithm to detect the active speaker based on visual cues and help robots behave normally in conversational groups.
+          bio: Hooman Hedayati works in human-robot interaction, machine learning and robotics, seeking more seamless, safer and intuitive ways for people to interact with computationally-controlled devices. A member of the IRON Lab since 2016, he is a doctoral student in the Department of Computer Science. His work includes studying the interactions between flying robots and humans, developing algorithms to support more socially sensitive behavior for robots, and using augmented reality to make working with robots more productive and safer.
           speakers:
             - name: Hooman Hedayati
-              website:
+              website: https://www.colorado.edu/atlas/hooman-hedayati
           advisors:
             - name: Dan Szafir
               website: https://iron-lab.org/
@@ -113,16 +124,16 @@
               website: https://www.ariasystems.group/
     - date: July 29th
       talks:
-        - title:
+        - title: Evaluating Chance Constraints for Kinodynamic Motion Planning under Uncertainty using Monte Carlo Methods
           abstract:
-          bio:
+          bio: Katherine Glasheen is a Ph.D. candidate and NSF Graduate Research Fellow in the Smead Department of Aerospace Engineering Sciences at the University of Colorado Boulder. Her research is focused on particle-based motion planning for robotic vehicles navigating in uncertain environments. Specifically, her work leverages dispersed computing via network connectivity to run computation-heavy models online, but offboard robotic systems.
           speakers:
             - name: Katherine Glasheen
               website:
           advisors:
             - name: Eric Frew
               website: https://www.colorado.edu/faculty/frew/
-        - title:
+        - title: Field robotics and Mix Reality for Emergency Response
           abstract:
           bio:
           speakers:
@@ -133,7 +144,7 @@
               website: http://arpg.github.io/
     - date: August 5th
       talks:
-        - title:
+        - title: Bio-Inspired Reactive Control
           abstract:
           bio:
           speakers:
@@ -142,9 +153,9 @@
           advisors:
             - name: Sean Humbert
               website: http://www.boulderbprl.com/
-        - title:
-          abstract:
-          bio:
+        - title: Simulation in the Loop for Agile Control of Ground Vehicles
+          abstract: Agile, collision-free navigation in cluttered environments remains a challenging problem in autonomous navigation. Often, such solutions rely on a simplified model of the vehicle and/or environment to reduce computational load, however, this can lead to suboptimal vehicle trajectories, particularly in the case of a highly dynamic ground vehicle interacting with terrain containing dense spatial features. In this talk, I propose a MPC-based algorithm which solves the autonomous navigation problem for a ground vehicle via Levenberg-Marqaudt trajectory optimization and simulated trajectory evaluation.
+          bio: Mike Miles is a 3rd year PhD student in the ARPG lab at CU Boulder. He has a B.S. in Electrical Engineering and an M.S. in Mechanical Engineering. His research interests include robotic perception and autonomy, often utilizing simulation tools.
           speakers:
             - name: Mike Miles
               website:
@@ -155,7 +166,7 @@
       talks:
         - title:
           abstract:
-          bio:
+          bio: Michael Walker is a PhD student that works in Daniel Szafir's IRON Lab and Jack Burn's NESS Team. MIchael's interests involve incorporating virtual and mixed reality into human-robot interactions in teleportation, supervisory, and collaborative settings.
           speakers:
             - name: Michael Walker
               website:
