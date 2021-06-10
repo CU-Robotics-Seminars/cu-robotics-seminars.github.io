@@ -1,0 +1,84 @@
+---
+layout: page
+---
+
+<div class="row">
+    <div class="col-sm-7">
+      {{ content }}
+    </div>
+  <div class="col-sm-5">
+    <iframe src={{ page.google_maps }} width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+<div class="seminar">
+  {% for series in site.data[page.yml] %}
+    {% for session in series.sessions %}
+      <h2 class="category">{% if session.pdf %}<a href="{{ session.pdf | relative_url }}" target="_blank">{{ session.date }}</a>{% else %}{{ session.date }}{% endif %}</h2>
+      <ol>
+        {% for talk in session.talks %}
+          <li>
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-10">
+                <div class="title">{{ talk.title }}</div>
+                <div class="subtitle">
+                  {% for speaker in talk.speakers %}
+                    {% if forloop.length == 1 or forloop.length == 2 and forloop.last == false %}
+                      {% if speaker.website %}<a href="{{ speaker.website }}" target="_blank">{{ speaker.name }}</a>{% else %}{{ speaker.name }}{% endif %}
+                    {% else %}
+                      {% unless forloop.last %}
+                      {% if speaker.website %}<a href="{{ speaker.website }}" target="_blank">{{ speaker.name }}</a>{% else %}{{ speaker.name }}{% endif %},
+                      {% else %}
+                        and {% if speaker.website %}<a href="{{ speaker.website }}" target="_blank">{{ speaker.name }}</a>{% else %}{{ speaker.name }}{% endif %}
+                      {% endunless %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                <div class="description"><em>Advised by: 
+                  {% for advisor in talk.advisors %}
+                    {% if forloop.length == 1 or forloop.length == 2 and forloop.last == false %}
+                      {% if advisor.website %}<a href="{{ advisor.website }}" target="_blank">{{ advisor.name }}</a>{% else %}{{ advisor.name }}{% endif %}
+                    {% else %}
+                      {% unless forloop.last %}
+                      {% if advisor.website %}<a href="{{ advisor.website }}" target="_blank">{{ advisor.name }}</a>{% else %}{{ advisor.name }}{% endif %},
+                      {% else %}
+                        and {% if advisor.website %}<a href="{{ advisor.website }}" target="_blank">{{ advisor.name }}</a>{% else %}{{ advisor.name }}{% endif %}
+                      {% endunless %}
+                    {% endif %}
+                  {% endfor %}
+                </em></div>
+                <div class="links">
+                  {% if talk.abstract %}
+                    <a class="abstract btn btn-sm z-depth-0" role="button">Talk Abstract</a>
+                  {% endif %}
+                  {% if talk.bio %}
+                    <a class="bio btn btn-sm z-depth-0" role="button">Speaker Bio</a>
+                  {% endif %}
+                  {% if talk.abstract %}
+                    <div class="abstract hidden">
+                      <p>{{ talk.abstract }}</p>
+                    </div>
+                  {% endif %}
+                  {% if talk.bio %}
+                    <div class="bio hidden">
+                      <p>{{ talk.bio }}</p>
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-sm-1"></div>
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<div class="social">
+  <div class="contact-icons">
+    <a href="mailto:{{ page.email | encode_email }}"><i class="fas fa-envelope"></i></a>
+  </div>
+  <div class="contact-note">Questions? Email us!</div>
+</div>

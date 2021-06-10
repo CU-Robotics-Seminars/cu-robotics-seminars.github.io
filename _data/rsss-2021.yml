@@ -1,0 +1,177 @@
+- semester: Summer 2021
+  sessions:
+    - date: June 10th
+      pdf: assets/rsss-2021/2021-06-10.pdf
+      talks:
+        - title: "The Manufacturing and Control of Kirigami Micro Robots"
+          abstract: The remarkable ability of animals, such as mice, cockroaches and spiders, to maneuver through challenging cluttered natural terrain has been a primary inspiration for legged robots. Recent research indicates that body reorientation along pathways of minimal energy is a key factor influencing such locomotion. We propose to extend this idea by hypothesising that soft bodied animals and robots could employ an alternate yet equally effective strategy relying on their distributed body compliance to squeeze through cluttered obstacles. To demonstrate the same, we are developing an origami-based hexapedal robot, Compliant Legged Articulated Robotic Insect (CLARI) with compliant exoskeletal morphology. The robot, fabricated using a multilayer laminate laser micromachining technique, has four independently actuated legs. With the use of specifically developed electronics, the in lab manufactured piezoelectric actuators are controlled to achieve the small scale robotic motion. CLARI is able to passively conform to its environment and move through both horizontally and vertically confined spaces.
+          bio: Heiko Kabutz research interest is in the mechanical design and manufacturing of robust legged movement mechanisms for micro robotics. The current focus is on bio-inspiration connected with spider locomotion. William McDonnell research currently is focused on the development of power conversion and actuator drive electronics necessary for micro-robotic locomotion.
+          speakers:
+            - name: Heiko Kabutz
+              website: https://hkabutz.github.io/
+            - name: William McDonnell
+              website: https://www.colorado.edu/lab/jayaram/william-mcdonnell
+          advisors:
+            - name: Kaushik Jayaram
+              website: https://www.colorado.edu/lab/jayaram/
+        - title: "VoxBots: 3 DOF Modular Robots for Evolution"
+          abstract: Robotic imitation of biological evolution is difficult with current technology; technology which often lacks the adaptability of living equivalents. Time is another hurdle, significant biological evolution can take centuries. However, by removing hardware from the evolutionary process, previous work has shown that a simulation of a potential robot can be used to accelerate evolution into hours. Bringing these simulations into reality has shown to be difficult, but again, we can look to the living for inspiration. As biology relies on cells, so can robots, and by creating a palette of modules a larger morphology can be assembled which is greater than the sum of its parts. We are using modular robots with different functionalities, which can be seen as varying cells, to create larger, interesting morphologies which are created from designs generated through simulated evolution, designs discovered without human interaction.
+          bio: Travis' research in the MAC Lab focuses on how additive manufacturing can be used to further robotics. He received his M.S. and B.S degrees at the University of Utah.
+          speakers:
+            - name: Travis Hainsworth
+          advisors:
+            - name: Robert MacCurdy
+              website: https://www.matterassembly.org/
+    - date: June 24th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Ofer Dagan
+              website:
+          advisors:
+            - name: Nisar Ahmed
+              website: https://cohrint.info/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Caleb Escobedo
+              website:
+          advisors:
+            - name: Alessandro Roncone
+              website: https://hiro-group.ronc.one/
+    - date: July 8th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Anuj Pasricha
+              website:
+          advisors:
+            - name: Alessandro Roncone
+              website: https://hiro-group.ronc.one/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Vani Sundaram
+              website:
+          advisors:
+            - name: Mark Rentschler
+              website: https://www.colorado.edu/lab/amtl/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Sarah Aguasvivas-Manzano
+              website:
+          advisors:
+            - name: Nikolaus Correll
+              website: http://correll.cs.colorado.edu/
+    - date: July 15th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Aaquib Tabrez
+              website:
+          advisors:
+            - name: Brad Hayes
+              website: http://www.cairo-lab.com/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Hooman Hedayati
+              website:
+          advisors:
+            - name: Dan Szafir
+              website: https://iron-lab.org/
+    - date: July 22th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Carl Mueller
+              website:
+          advisors:
+            - name: Brad Hayes
+              website: http://www.cairo-lab.com/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: John Jackson
+              website:
+          advisors:
+            - name: Morteza Lahijanian
+              website: https://www.ariasystems.group/
+    - date: July 29th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Katherine Glasheen
+              website:
+          advisors:
+            - name: Eric Frew
+              website: https://www.colorado.edu/faculty/frew/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Zhaozhong Chen
+              website:
+          advisors:
+            - name: Christoffer Heckman
+              website: http://arpg.github.io/
+    - date: August 5th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Mike Ohradzansky
+              website:
+          advisors:
+            - name: Sean Humbert
+              website: http://www.boulderbprl.com/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Mike Miles
+              website:
+          advisors:
+            - name: Christoffer Heckman
+              website: http://arpg.github.io/
+    - date: August 12th
+      talks:
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Michael Walker
+              website:
+          advisors:
+            - name: Dan Szafir
+              website: https://iron-lab.org/
+        - title:
+          abstract:
+          bio:
+          speakers:
+            - name: Gene Rush
+              website:
+            - name: Harel Biggie
+              website:
+          advisors:
+            - name: Sean Humbert
+              website: http://www.boulderbprl.com/
+            - name: Christoffer Heckman
+              website: http://arpg.github.io/
