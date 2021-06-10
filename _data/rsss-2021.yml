@@ -19,10 +19,12 @@
           bio: Brandon received a double major in biomedical engineering and microelectronics engineering from Rochester Institute of Technology. There, his interests centered around microfluidics and multi-physics processes. After a few internships out west in Oregon, Brandon decided to head out to Colorado for grad school as well as the mountains. Brandon’s research focus is on combining additive manufacturing with microfluidics as well as understanding and applications of thermal bubble-driven micro-pumps for microfluidics. In his free time, Brandon can likely be found swimming, hiking, exploring, and biking around in the nearby mountains (with Flagstaff being his current favorite for a quick evening ride).
           speakers:
             - name: Brandon Hayes
+              website:
           advisors:
             - name: Robert MacCurdy
               website: https://www.matterassembly.org/
     - date: June 17th
+      pdf:
       talks:
         - title: Deployed Intelligence in Robotic Materials
           abstract: Robotic materials are materials that tightly combine sensing, actuation, computation and communication. With the advent of advanced robotic material fabrication techniques that produce novel sensing and actuation, there also exists an opportunity to integrate computation and communication to create truly autonomous materials. For computation and communication, robotic materials use low-power edge devices. We integrate computing and communication into these devices, ultimately composing those materials into huge distributed computing platforms that can adapt, predict and learn, much like the human brain. With the slow-down of Moore’s Law in the past decades we assume that high-level high-power algorithms will need a simpler, more lightweight equivalence.
@@ -43,6 +45,7 @@
             - name: Morteza Lahijanian
               website: https://www.ariasystems.group/
     - date: June 24th
+      pdf:
       talks:
         - title: Heterogeneous Decetralized Data Fusion for Multi-Agent Robotic Systems
           abstract: In the context of multi-agent systems, there is a growing interest to allow for the coordinated and cooperative operation of heterogeneous systems in uncertain environments. For example, a team of air and ground vehicles can vary in their sensing, computing, and communication capabilities, and might have different sets of models and objectives. The question is how to share information in a scalable and modular way, despite this heterogeneity? In this talk I will show how we exploit the conditional independence structure inherent in different robotics problems to develop a family of methods that allow exact and approximate decentralized Bayesian fusion. These can be used to significantly reduce communication and computation costs, allowing scalability in multi-agent heterogeneous systems as will be demonstrated with a multi-target tracking simulation.
@@ -63,6 +66,7 @@
             - name: Alessandro Roncone
               website: https://hiro-group.ronc.one/
     - date: July 8th
+      pdf:
       talks:
         - title: "Non-Prehensile Manipulation Modeling and Planning: Experiments in Poking Manipulation"
           abstract:
@@ -83,6 +87,7 @@
             - name: Mark Rentschler
               website: https://www.colorado.edu/lab/amtl/
     - date: July 15th
+      pdf:
       talks:
         - title: Mediating Trust and Influence in Human-Robot Interaction via Explainable AI
           abstract:
@@ -103,6 +108,7 @@
             - name: Dan Szafir
               website: https://iron-lab.org/
     - date: July 22th
+      pdf:
       talks:
         - title:
           abstract:
@@ -123,6 +129,7 @@
             - name: Morteza Lahijanian
               website: https://www.ariasystems.group/
     - date: July 29th
+      pdf:
       talks:
         - title: Evaluating Chance Constraints for Kinodynamic Motion Planning under Uncertainty using Monte Carlo Methods
           abstract:
@@ -143,6 +150,7 @@
             - name: Christoffer Heckman
               website: http://arpg.github.io/
     - date: August 5th
+      pdf:
       talks:
         - title: Bio-Inspired Reactive Control
           abstract:
@@ -163,6 +171,7 @@
             - name: Christoffer Heckman
               website: http://arpg.github.io/
     - date: August 12th
+      pdf:
       talks:
         - title:
           abstract:
