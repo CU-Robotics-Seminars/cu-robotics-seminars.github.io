@@ -58,7 +58,7 @@
               website: https://cohrint.info/
         - title: Contact Anticipation and Avoidance for Robotic Manipulators using Onboard Sensors
           abstract: As humans and robots begin to coexist in work and household environments, pure collision avoidance is insufficient, as human-robot contact is inevitable and, in some situations, desired. Robotic skin has the ability to enable manipulators to anticipate contact and enhance their approximation of the surrounding environment. This presentation will focus on the ability for robot arms to take slight deviations from their original trajectory through velocity reduction and motion restrictions with the use of onboard sensors. Additionally, this talk will explore future directions for modular sensor units and associated algorithms.
-          bio:
+          bio: Caleb Escobedo is a 2nd year PhD student in the Human Interaction and Robotics (HIRO) Group advised by Alessondro Roncone. He has a B.S. in Computer Science from Trinity University located in San Antonio, TX. His research focuses on robotic skin for physical human robot interaction in close proximity environments. With sensors placed on robotic manipulators he has developed algorithms for obstacle avoidance and contact anticipation when contact is desired by human collaborators.
           speakers:
             - name: Caleb Escobedo
               website: https://hiro-group.ronc.one/caleb.html
@@ -78,8 +78,8 @@
             - name: Alessandro Roncone
               website: https://hiro-group.ronc.one/
         - title: Embedded Sensing Mechanisms and Control for Soft Robotic Systems
-          abstract:
-          bio:
+          abstract: The need to create more viable soft sensors has been increasing in tandem with the growing interest in soft robots. There are several types of soft sensing methods, like capacitive sensing and self-sensing, that have proven to be useful when controlling certain soft actuators. However, these sensing methods prove to be problematic when paired with electro-hydraulic actuators, like hydraulically amplified self-healing electrostatic (HASEL) actuators. These issues are only amplified when trying to sense and control the movement of a multi-HASEL system. To address these shortcomings, we developed a magnetic sensing mechanism for folded HASELs to measure the changes in height of the HASEL. The two-part magnetic sensing mechanism is composed of an off-the-shelf magnetometer and a silicone block doped with neo-bonded powder; the magnetometer sits under the folded HASEL and the magnetic block is placed on top.  Our magnetic sensing mechanism achieves a resolution of <0.05mm (<0.1mm for the HASEL height range) and accurately tracks actuator motion at high frequencies, despite changes in ambient temperature and relative humidity. When scaling up to a larger system with six HASEL/sensor units, we were still able to sample sensor data at the maximum 1kHz and successfully control the system to track a desired end effector position in R3. This work demonstrates the first instance of sensing electro-hydraulic deformation using a magnetic sensing mechanism.
+          bio: Vani is finishing up her third-year as a PhD student in the Mechanical Engineering Department at CU Boulder. Prior to moving to CO, she obtained her BS in Mechanical Engineering from the University of Pittsburgh. Her research interests include the development and validation of soft sensing mechanisms, control of embedded systems, and applications for soft, robotic systems.
           speakers:
             - name: Vani Sundaram
               website:
