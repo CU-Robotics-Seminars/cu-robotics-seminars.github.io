@@ -24,7 +24,7 @@
             - name: Robert MacCurdy
               website: https://www.matterassembly.org/
     - date: June 17th
-      pdf:
+      pdf: assets/rsss-2021/2021-06-17.pdf
       talks:
         - title: Deployed Intelligence in Robotic Materials
           abstract: Robotic materials are materials that tightly combine sensing, actuation, computation and communication. With the advent of advanced robotic material fabrication techniques that produce novel sensing and actuation, there also exists an opportunity to integrate computation and communication to create truly autonomous materials. For computation and communication, robotic materials use low-power edge devices. We integrate computing and communication into these devices, ultimately composing those materials into huge distributed computing platforms that can adapt, predict and learn, much like the human brain. With the slow-down of Moore’s Law in the past decades we assume that high-level high-power algorithms will need a simpler, more lightweight equivalence.
@@ -45,7 +45,7 @@
             - name: Morteza Lahijanian
               website: https://www.ariasystems.group/
     - date: June 24th
-      pdf:
+      pdf: assets/rsss-2021/2021-06-24.pdf
       talks:
         - title: Heterogeneous Decetralized Data Fusion for Multi-Agent Robotic Systems
           abstract: In the context of multi-agent systems, there is a growing interest to allow for the coordinated and cooperative operation of heterogeneous systems in uncertain environments. For example, a team of air and ground vehicles can vary in their sensing, computing, and communication capabilities, and might have different sets of models and objectives. The question is how to share information in a scalable and modular way, despite this heterogeneity? In this talk I will show how we exploit the conditional independence structure inherent in different robotics problems to develop a family of methods that allow exact and approximate decentralized Bayesian fusion. These can be used to significantly reduce communication and computation costs, allowing scalability in multi-agent heterogeneous systems as will be demonstrated with a multi-target tracking simulation.
