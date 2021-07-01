@@ -66,18 +66,18 @@
             - name: Alessandro Roncone
               website: https://hiro-group.ronc.one/
     - date: July 8th
-      pdf:
+      pdf: assets/rsss-2021/2021-07-08.pdf
       talks:
-        - title: "Non-Prehensile Manipulation Modeling and Planning: Experiments in Poking Manipulation"
-          abstract:
-          bio:
+        - title: Sequential Robotic Manipulation with Nonprehensile Motion Primitives
+          abstract: Realistic robotic manipulation applications might expect the robot to operate in dense clutter, in the presence of occlusions, or in ungraspable configurations. These applications may result in failure modes for robot operation through traditional grasping. Nonprehensile manipulation (NPM) offers a complementary solution to prehensile (grasping) manipulation by significantly expanding the size (intended as the set of reachable configurations) and dimensionality (intended as the number of degrees of freedom) of the operational space of even the simplest robot manipulator. In other words, NPM can be used to manipulate objects when conventional grasping-based manipulation is infeasible or unnecessary. This talk will demonstrate the utility of NPM through poking, a skill that allows fast object manipulation and expands the size of a manipulator's reachable workspace. This presentation will also highlight the importance of multimodal planning, i.e., combining both NPM and grasping, to yield highly dexterous robot behavior.
+          bio: Anuj Pasricha is a 3rd year PhD student in the Human Interaction and Robotics (HIRO) Group advised by Alessandro Roncone. He received a B.S. in Computer Engineering from the University of Illinois at Urbana-Champaign, then worked at various startups involving robotics, multi-material 3D printing, mixed reality, and bioinformatics. His research focuses on the modeling and use of nonprehensile manipulation ("anything but" grasping) skills.
           speakers:
             - name: Anuj Pasricha
               website: https://hiro-group.ronc.one/anuj.html
           advisors:
             - name: Alessandro Roncone
               website: https://hiro-group.ronc.one/
-        - title: Embedded Sensing Mechanisms and Control for Soft Robotic Systems
+        - title: Embedded Magnetic Sensing Mechanism and Control for Soft Robotic Systems
           abstract: The need to create more viable soft sensors has been increasing in tandem with the growing interest in soft robots. There are several types of soft sensing methods, like capacitive sensing and self-sensing, that have proven to be useful when controlling certain soft actuators. However, these sensing methods prove to be problematic when paired with electro-hydraulic actuators, like hydraulically amplified self-healing electrostatic (HASEL) actuators. These issues are only amplified when trying to sense and control the movement of a multi-HASEL system. To address these shortcomings, we developed a magnetic sensing mechanism for folded HASELs to measure the changes in height of the HASEL. The two-part magnetic sensing mechanism is composed of an off-the-shelf magnetometer and a silicone block doped with neo-bonded powder; the magnetometer sits under the folded HASEL and the magnetic block is placed on top.  Our magnetic sensing mechanism achieves a resolution of <0.05mm (<0.1mm for the HASEL height range) and accurately tracks actuator motion at high frequencies, despite changes in ambient temperature and relative humidity. When scaling up to a larger system with six HASEL/sensor units, we were still able to sample sensor data at the maximum 1kHz and successfully control the system to track a desired end effector position in R3. This work demonstrates the first instance of sensing electro-hydraulic deformation using a magnetic sensing mechanism.
           bio: Vani is finishing up her third-year as a PhD student in the Mechanical Engineering Department at CU Boulder. Prior to moving to CO, she obtained her BS in Mechanical Engineering from the University of Pittsburgh. Her research interests include the development and validation of soft sensing mechanisms, control of embedded systems, and applications for soft, robotic systems.
           speakers:
